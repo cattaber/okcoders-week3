@@ -1,0 +1,41 @@
+body {
+	margin: 0 auto
+	max-width: 50em;
+	padding: 12px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	line-height: 1.5;
+
+}
+h1, h2 {
+	color: #444
+
+}
+p {
+	color: #333
+}
+img {
+	margin: 12px;
+	width: 240px;
+	float: left;
+}
+.float-left {
+	float: left;
+
+}
+.float-right {
+	float: right;
+
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+
+}
+
+.columns p {
+	width: 32%;
+	float: left;
+	padding: 6px;
+}
